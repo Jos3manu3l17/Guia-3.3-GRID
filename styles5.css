@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.principal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px 200px;
+  gap: 10px;
+  width: 400px;
+  margin: 40px auto;
+}
+
+.Item {
+  background-color: cadetblue;
+  display: grid;
+}
+
+.imagen {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
